@@ -1,0 +1,10 @@
+/Users/mperholtz/Documents/AppDev/commute-tool/bin/Debug/netcoreapp2.0/commute-tool.deps.json
+/Users/mperholtz/Documents/AppDev/commute-tool/bin/Debug/netcoreapp2.0/commute-tool.runtimeconfig.json
+/Users/mperholtz/Documents/AppDev/commute-tool/bin/Debug/netcoreapp2.0/commute-tool.runtimeconfig.dev.json
+/Users/mperholtz/Documents/AppDev/commute-tool/bin/Debug/netcoreapp2.0/commute-tool.dll
+/Users/mperholtz/Documents/AppDev/commute-tool/bin/Debug/netcoreapp2.0/commute-tool.pdb
+/Users/mperholtz/Documents/AppDev/commute-tool/obj/Debug/netcoreapp2.0/commute-tool.csproj.CoreCompileInputs.cache
+/Users/mperholtz/Documents/AppDev/commute-tool/obj/Debug/netcoreapp2.0/commute-tool.AssemblyInfoInputs.cache
+/Users/mperholtz/Documents/AppDev/commute-tool/obj/Debug/netcoreapp2.0/commute-tool.AssemblyInfo.cs
+/Users/mperholtz/Documents/AppDev/commute-tool/obj/Debug/netcoreapp2.0/commute-tool.dll
+/Users/mperholtz/Documents/AppDev/commute-tool/obj/Debug/netcoreapp2.0/commute-tool.pdb
