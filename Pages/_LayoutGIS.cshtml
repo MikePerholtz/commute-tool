@@ -18,15 +18,7 @@
     </environment>
 
 <style>
-  html, body, #viewDiv {
-    padding: 0;
-    margin: 0;
-    /* mPerholtz - this is the height of the main top menu.  Otherwise the map is hidden underneath the top navigation. */
-    position:relative;
-    top:17px;
-    height: 100%;
-    width: 100%;
-  }
+  
 </style>
   <link rel="stylesheet" href="https://js.arcgis.com/4.6/esri/css/main.css">
 <script src="https://js.arcgis.com/4.6/"></script>
@@ -104,6 +96,9 @@ require([
   });
 
 });</script>
+
+    @RenderSection("css_head", required: false)
+    @RenderSection("scripts_head", required: false)
 </head>
 <body>
     <nav class="navbar navbar-inverse navbar-fixed-top">
