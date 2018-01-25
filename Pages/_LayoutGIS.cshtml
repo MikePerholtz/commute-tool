@@ -18,7 +18,24 @@
     </environment>
 
 <style>
-  
+    /* mPerholtz 2018_01_24 
+     * Move this to site.css eventually */
+    .logo_container_alta {
+      padding-right: 25px;
+      padding-top: 3px;
+      float:left;
+    }
+    nav.navbar-inverse {
+      background-color: #003947;
+    }
+
+    .navbar-inverse .navbar-brand {
+      color: #D2F1F7;
+    }
+
+    nav .navbar-brand {
+      
+    }
 </style>
   <link rel="stylesheet" href="https://js.arcgis.com/4.6/esri/css/main.css">
 <script src="https://js.arcgis.com/4.6/"></script>
@@ -103,6 +120,12 @@ require([
 <body>
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
+            <a class = "logo_container_alta" width="45" height="45">
+                <img src = "/images/logo_alta.svg" 
+                    title="Alta Planning and Design" 
+                    class="logo_image_alta" 
+                    width="45" height="45" >
+            </a>
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="sr-only">Toggle navigation</span>
@@ -110,13 +133,13 @@ require([
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a asp-page="/Index" class="navbar-brand">commute_tool</a>
+                <a asp-page="/Index" class="navbar-brand"><b>commute</b>tool</a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li><a asp-page="/Index">Home</a></li>
                     <li><a asp-page="/About">About</a></li>
-                    <li><a asp-page="/Contact">Contact</a></li>
+                    <!-- <li><a asp-page="/Contact">Contact</a></li> -->
                 </ul>
             </div>
         </div>

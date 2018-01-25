@@ -12,7 +12,7 @@ namespace commute_tool.Pages
 
         public void OnGet()
         {
-            Message = "Your application description page.";
+            Message = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.";
         }
     }
 }
