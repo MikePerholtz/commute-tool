@@ -13,6 +13,12 @@ An ArcGIS web api is used to display a map of Los Angeles. An ArcGIS widget mana
 A prototype version of the site is provided at:
 commutetool.slopesidesystems.com
 
+CHALLENGES FACED
+The biggest challenge I faced was trying to get ArcGIS working inside of ASP.net MVC rendering engine.  There was particular rendering (or loading) order to the ARC JavaScript API's there, so all I would  get was a blank map and no error.
+
+I built this code challenge on top of .net core, which is Microsoft's latest cross-platform technology.   IT's now possible to run .net code on not just windows, but Mac and Linux.  This has big advantages.  However, the next biggest challenge was trying to get this ASP.net Core app working at my host.  
+
+
 CURRENT STATUS
 Current Functionality enabled: Ability to display the map of LA and search for an address
 
