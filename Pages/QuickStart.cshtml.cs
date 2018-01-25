@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace CommuteTool.Pages
+namespace commute_tool.Pages
 {
     public class QuickStartModel : PageModel
     {
